@@ -1,0 +1,158 @@
+/*
+font-family: 'Overpass', sans-serif;
+*/
+
+/*******************************
+******** STAR **************
+***************************/
+
+.icn {
+  width: 10%;
+  padding: 1.8rem 2rem;
+  padding-right: 3.6rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+  background-color: hsl(212, 20%, 25%);
+}
+
+/*******************************
+******** HEADER **************
+***************************/
+
+.header h1 {
+  font-family: "Overpass", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+/*******************************
+******** PARAGRAPH **************
+***************************/
+
+.parag {
+  width: 90%;
+}
+
+.parag p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  color: hsl(216, 12%, 54%);
+}
+
+/*******************************
+******** LINKS **************
+***************************/
+
+.numbers {
+  margin-top: 2rem;
+}
+
+.number-link:link,
+.number-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2.4rem 3rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 22%);
+  transition: all 0.3s;
+  color: hsl(216, 12%, 54%);
+  font-family: "Overpass", sans-serif;
+  font-size: 1.8rem;
+}
+
+.number-link:hover,
+.number-link:active {
+  color: #fff;
+  background-color: #cf711f;
+}
+
+/*******************************
+******** BUTTON **************
+***************************/
+
+.btn {
+  margin-top: 1.6rem;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.btn-link {
+  padding: 2rem 20rem;
+  border-radius: 50px;
+}
+
+.btn-link:link,
+.btn-link:visited {
+  background-color: #cf711f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.btn-link:hover,
+.btn.link:active {
+  background-color: #fff;
+  color: #cf711f;
+  transition: all 0.3s;
+}
+
+/*******************************
+******** PAGE TWO **************
+***************************/
+
+.hidden-pointed {
+  width: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 15rem;
+  border-radius: 16px;
+}
+
+.hidden-pointed p {
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 16px;
+  color: #cf711f;
+  font-size: 1.4rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  font-family: "Overpass", sans-serif;
+}
+
+.hidden-header h1 {
+  font-family: "Overpass", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hidden-paragraph p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  color: hsl(216, 12%, 54%);
+}
+
+/*******************************
+******** HIDDEN **************
+***************************/
+
+/*
+.hidden--section {
+  display: none;
+}
+*/
+
+.hidden {
+  display: none;
+}
